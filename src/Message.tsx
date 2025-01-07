@@ -1,18 +1,10 @@
-
-function Message(){
-
-
-const name = '';
-if (name) {
+function Message() {
+  const name = "Mina";
+  if (name) {
     return <h1>Hello {name} </h1>;
+  }
 
-
-}
-
-return <h1>Hello Guest</h1>;
-
-
+  return <h1>Hello Guest</h1>;
 }
 
 export default Message;
-
